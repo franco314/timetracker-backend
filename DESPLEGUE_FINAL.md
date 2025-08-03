@@ -14,7 +14,7 @@ Tu proyecto Django está **100% configurado** para producción. Solo necesitas s
 git init
 git add .
 git commit -m "TimeTracker Pro - Listo para producción"
-git remote add origin https://github.com/TU_USUARIO/TU_REPOSITORIO.git
+git remote add origin https://github.com/franco314/timetracker-backend/
 git push -u origin main
 ```
 
@@ -35,8 +35,7 @@ En Railway, ve a tu proyecto → Variables y agrega:
 
 ```
 DEBUG=False
-SECRET_KEY=tu-clave-secreta-muy-larga-aqui-cambiala-por-una-segura
-DB_NAME=railway
+SECRET_KEY=lame3140
 DB_USER=postgres
 DB_PASSWORD=password_que_te_da_railway
 DB_HOST=host_que_te_da_railway
