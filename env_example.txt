@@ -1,0 +1,19 @@
+# Configuración para desarrollo local
+DEBUG=True
+SECRET_KEY=django-insecure-please-change-this-key
+
+# Base de datos local (MySQL)
+DB_NAME=usuarios
+DB_USER=root
+DB_PASSWORD=Lame3140
+DB_HOST=localhost
+DB_PORT=3306
+
+# Para producción, cambiar estas variables:
+# DEBUG=False
+# SECRET_KEY=tu-clave-secreta-muy-larga-aqui
+# DB_NAME=nombre_base_datos_produccion
+# DB_USER=usuario_produccion
+# DB_PASSWORD=password_produccion
+# DB_HOST=host_produccion
+# DB_PORT=5432 
